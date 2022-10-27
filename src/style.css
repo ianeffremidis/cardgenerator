@@ -1,1 +1,132 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+    background: green;
+    padding: 0 24px;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8vw;
+    filter: drop-shadow(3px 3px 3px #00000039);
+    
+  }
+  .container{
+   text-align: center;
+   font-size: 1.8rem;
+   position: relative;
+   margin-top: 5%;
+  
+  }
+  .button{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 0.5vw 1vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+   
+  }
+  .button:active{
+    background-color: red;
+    box-shadow: inset 4px 3px 4px #000000a3;
+    color: white
+    padding: 0.4vw 0.9vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    width:  14.6rem;
+    height: 22.15rem;
+    box-shadow: 20px;
+    border-radius:10px;
+    filter: drop-shadow(10px 10px 4px #0000005a);
+    padding: 10px;
+    padding-top: 0 ;
+    margin: auto;
+    margin-top: 3vw;
+    transform: rotate(10deg);   
+    position:absolute;
+    margin-left:35%
+  }
+  .card2 {
+     --stripe: red;
+    --bg: #ffffff;
+  
+    background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0,
+      linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0,
+      linear-gradient(315deg, var(--bg) 25%, transparent 25%),
+      linear-gradient(45deg, var(--bg) 25%, transparent 25%);
+    background-size: 100px 100px;
+    background-color: var(--stripe);
+    width:  14.6rem;
+    height: 22.15rem;
+    box-shadow: 20px;
+    border-radius:10px;
+    filter: drop-shadow(10px 10px 4px #0000005a);
+    padding: 10px;
+    padding-top: 0 ;
+    margin: auto;
+    margin-top: 3vw;
+    transform: rotate(-15deg);   
+    position: absolute;
+    margin-left:33%
+  }
+  
+  .sign{
+    font-size: 4rem;
+    color: red;
+    position: absolute;
+    top: 1%;
+    right: 78%
+  }
+  .signBlack{
+    font-size: 4rem;
+    color:black;
+    position: absolute;
+    top: 1%;
+    right: 78%
+  }
+  .signlo{
+    font-size: 4rem;
+    color: red;
+    position: absolute;
+    top: 79%;
+    right: 7%
+  }
+  .signloBlack{
+    font-size: 4rem;
+    color: black;
+    position: absolute;
+    top: 79%;
+    right: 7%
+  }
+  .number{
+    text-align:center;
+    padding-top: 36%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 10rem;
+    color: red;
+    filter: drop-shadow(3px 3px 3px #00000039);
+  }
+  .numberBlack{
+    text-align:center;
+    padding-top: 36%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 10rem;
+    color: black;
+    filter: drop-shadow(3px 3px 3px #00000039);
+  }
+  
